@@ -1,0 +1,56 @@
+@media(min-width: 768px) {
+    .menu-items ul {
+        display: flex;
+    }
+.menu-items ul li {
+    margin-right: 15px;
+}
+
+.menu-items ul li a {
+    font-size: 14px;
+}
+
+.nav-container h1 {
+    font-size: 21px;
+}
+
+.notices-content-container h2 {
+    font-size: 30px;
+}
+
+.card-notice h3 {
+    font-size: 18px;
+}
+
+.card-notice h4 {
+    font-size: 14px;
+}
+
+.game-content-container h2 {
+    font-size: 30px;
+}
+
+
+.subscription-container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    padding: 0 50px;
+}
+
+.form-buttons button {
+    margin: 0;
+}
+
+.form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 52px;
+}
+
+
+}
+
