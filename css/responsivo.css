@@ -1,56 +1,115 @@
-@media(min-width: 768px) {
-    .menu-items ul {
-        display: flex;
-    }
-.menu-items ul li {
+@media (min-width: 768px) {
+  .menu-items ul {
+    display: flex;
+  }
+  .menu-items ul li {
     margin-right: 15px;
-}
+  }
 
-.menu-items ul li a {
+  .menu-items ul li a {
     font-size: 14px;
-}
+  }
 
-.nav-container h1 {
+  .nav-container h1 {
     font-size: 21px;
-}
+  }
 
-.notices-content-container h2 {
+  .notices-content-container h2 {
     font-size: 30px;
-}
+  }
 
-.card-notice h3 {
+  .card-notice h3 {
     font-size: 18px;
-}
+  }
 
-.card-notice h4 {
+  .card-notice h4 {
     font-size: 14px;
-}
+  }
 
-.game-content-container h2 {
+  .game-content-container h2 {
     font-size: 30px;
-}
+  }
 
-
-.subscription-container h2 {
+  .subscription-container h2 {
     font-size: 30px;
     margin-bottom: 20px;
-}
+  }
 
-.form-container {
+  .form-container {
     padding: 0 50px;
-}
+  }
 
-.form-buttons button {
+  .form-buttons button {
     margin: 0;
-}
+  }
 
-.form-buttons {
+  .form-buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 52px;
+  }
 }
 
+@media (min-width: 1200px) {
+  body {
+    width: 1200px;
+    margin: 0 auto;
+  }
 
+  .header-container {
+    padding: 0 105px;
+  }
+
+  .nav-container h1 {
+    font-size: 24px;
+  }
+
+  .menu-items ul li {
+    margin-right: 30px;
+  }
+
+  .menu-items ul li a {
+    font-size: 14px;
+  }
+
+  .notices-content-container {
+    width: 990px;
+  }
+
+  .notices-content-container h3 {
+    font-size: 24px;
+  }
+
+  .notices-content-container h4 {
+    font-size: 16px;
+  }
+
+  .notices-content-container .btn {
+    margin-bottom: 56px;
+  }
+
+  .game-card-container {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+  }
+
+  .subscription-content-container {
+    width: 790px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    height: 190px;
+    padding: 0 105px;
+  }
+
+  .footer-content-container {
+    flex-direction: row;
+    align-items: center;
+  }
 }
-
